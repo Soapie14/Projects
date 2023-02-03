@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+
+/* *============ MEDIA QUERIES ============* */
+
+/* Devices under 768px */
+@media (max-width: 767.98px) {
+
+}
+
+/* *============ BOOTSTRAP ============* */
+
+/* Extra small(xs) devices (portrait phones, less than 576px)
+no media query since this is the default in bootstrap */
+
+/* Small (sm) devices (landscape phones, 576px and up)
+@media (min-width:576px) */
+
+/* Medium (md) devices (tablets, 768px and up)
+@media (min-width: 786px) {...} */
+
+/* Large (lg) devices (desktops, 992px and up)
+@media(min-width:992 px) */
+
+/* Extra Large (xl) devices (large desktops, 1200 px and up)
+@media(min-width:1200 px) */
