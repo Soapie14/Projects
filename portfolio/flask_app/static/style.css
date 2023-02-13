@@ -5,13 +5,28 @@ html, body {
     font-size: large;
 }
 
+.body{
+    margin: auto;
+}
+
+.nav {
+    color: rgb(189, 224, 254);
+}
 
 /* *============ MEDIA QUERIES ============* */
 
 /* Devices under 768px */
-/* @media (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 
-} */
+}
+/* *============ COLOR SCHEME ============* */
+/* 
+CDB4DB or 205, 180, 219 -light purple
+FFC8DD or 255, 200, 221 - light pink
+FFAFCC or 255, 175, 204 - pink 
+BDE0FE or 189, 224, 254 - light blue
+A2D2FF or 162, 210, 255 - blue 
+*/
 
 /* *============ BOOTSTRAP ============* */
 
