@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 html, body {
+    margin: 0;
+    height: 100%;
+    background:
+        linear-gradient(rgb(205, 180, 219), transparent),
+        linear-gradient(to top left, rgb(189, 224, 254), transparent),
+        linear-gradient(to top right, rgb(255, 175, 204), transparent);
+    background-blend-mode: screen;
     font-family: 'Roboto', sans-serif;
     font-size: large;
 }
-
-.body{
-    margin: auto;
-}
+/* 
+.body {
+    background:
+        linear-gradient(rgb(205, 180, 219), transparent),
+        linear-gradient(to top left, rgb(189, 224, 254), transparent),
+        linear-gradient(to top right, rgb(255, 175, 204), transparent);
+    background-blend-mode: screen;
+} */
 
 .nav {
     color: rgb(189, 224, 254);
