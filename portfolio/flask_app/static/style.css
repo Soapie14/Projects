@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 /* *============ COLOR SCHEME ============* */
 /* 
 CDB4DB or 205, 180, 219 -light purple
@@ -8,6 +9,18 @@ FFAFCC or 255, 175, 204 - pink
 BDE0FE or 189, 224, 254 - light blue
 A2D2FF or 162, 210, 255 - blue 
 */
+
+/* *============ FONTS ============* */
+
+/* 
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+ */
+
+/* 
+Headlines:
+Paragraphs:
+ */
 
     /* *============ BODY ============* */
 
@@ -39,6 +52,9 @@ body {
 
 .information {
     display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+
 }
 
     /* *============ SOCIALS ============* */
