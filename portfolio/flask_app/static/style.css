@@ -80,6 +80,20 @@ body {
     padding: 5%;
 }
 
+/* *============ IMAGES ============* */
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
+
+
+/* *****************************TEST********************** */
+
+
 /* *============ SOCIALS ============* */
 
 
