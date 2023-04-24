@@ -200,7 +200,15 @@ body {
 
 
 /* *============ SOCIALS ============* */
-
+.contact_me {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 5%; */
+}
+.resume {
+    display: flex;
+    justify-content: center;
+}
 
 HTML CSSResult Skip Results Iframe EDIT ON body {
     margin: 0;
