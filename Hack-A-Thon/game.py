@@ -1,6 +1,5 @@
-from classes.deck import Deck
+# Person
 
-bicycle = Deck()
-
-bicycle.show_cards()
-
+class person:
+    def __init__(self) -> None:
+        pass
