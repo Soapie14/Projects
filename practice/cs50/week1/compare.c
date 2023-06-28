@@ -11,3 +11,15 @@ int main(void)
         printf("x < y");
     }
 }
+
+int i = 0;
+while (i<3)
+{
+    print("meow\n");
+    i++;
+}
+
+for (int i=0; i<3 ; i++)
+{
+    printf("meow\n")
+}
