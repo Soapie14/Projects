@@ -1,6 +1,6 @@
 /* ******* Roots ******* */
 :root {
-    --primary-color: pink;
+    --primary-color: #ffc0cb;
     --primary-font-family: 'Bebas Neue', sans-serif;
 }
 /* ********Web Page Code******* */
@@ -20,7 +20,7 @@ body { min-height: 100vh; }
 .outer_container {
     margin: (0,0,0,0);
     min-height: 600px;
-    background-color: red;
+    background-color: #dba0aa;
     backdrop-filter: brightness(0.5);
     background-image: url('../static/images/background_movies.jpeg');
     background-repeat: no-repeat;
@@ -33,7 +33,9 @@ body { min-height: 100vh; }
 }
 
 .left_nav{
-    text-align: left;
+    position: relative;
+
+    width: 70%;
     padding: 14px 16px;
     font-size: 17px;
 }
@@ -47,5 +49,20 @@ body { min-height: 100vh; }
 }
 
 .right_nav{
-    float: right;
+    position: relative;
+    width: 30%;
+    display: flex;
+    margin-left: 30%;
+}
+
+.header_select{
+    padding: 3%;
+}
+
+.sign_in{
+    padding: 3%;
+}
+
+#language{
+    background-color: var(--primary-color);
 }
