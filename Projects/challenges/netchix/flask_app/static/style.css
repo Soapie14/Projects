@@ -23,7 +23,7 @@ body { min-height: 100vh; }
     background-color: #dba0aa;
     background-image: url('../static/images/background_movies.jpeg');
     background-repeat: no-repeat;
-    filter: brightness(0.5); 
+    /* filter: brightness(0.5);  */
     /* WILL NEED BRIGHTNESS FILTER LATER */
     background-size: 100%;
 }
@@ -41,7 +41,7 @@ body { min-height: 100vh; }
     font-size: 17px;
 }
 
-.netchix{
+.netchix_logo{
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 100;
     color: var(--primary-color);
@@ -60,10 +60,24 @@ body { min-height: 100vh; }
     padding: 3%;
 }
 
-.sign_in{
+.sign_in_button{
     padding: 3%;
 }
 
 #language{
+    background-color: transparent;
+    color: white;
+    border: grey;
+    width: auto;
+}
+
+#sign_in_button{
     background-color: var(--primary-color);
+    width: 140%;
+    height: 100%;
+    border-radius: 10%;
+    color: white;
+    font-weight: 500;
+    border-color: #dba0aa;
+    /* Need to add hover */
 }
