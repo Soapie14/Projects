@@ -21,9 +21,10 @@ body { min-height: 100vh; }
     margin: (0,0,0,0);
     min-height: 600px;
     background-color: #dba0aa;
-    backdrop-filter: brightness(0.5);
     background-image: url('../static/images/background_movies.jpeg');
     background-repeat: no-repeat;
+    filter: brightness(0.5); 
+    /* WILL NEED BRIGHTNESS FILTER LATER */
     background-size: 100%;
 }
 
