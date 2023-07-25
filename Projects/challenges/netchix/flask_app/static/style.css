@@ -3,22 +3,27 @@
     --primary-color: #ffc0cb;
     --primary-font-family: 'Bebas Neue', sans-serif;
 }
+
 /* ********Web Page Code******* */
-* { 
+* {
     margin: 0;
     padding: 0;
 }
 
-html, body {
+html,
+body {
     min-height: 100%;
 }
 
-body { min-height: 100vh; }
+body {
+    min-height: 100vh;
+    background-color: black;
+}
 
 
 /* ALL contents */
 .outer_container {
-    margin: (0,0,0,0);
+    margin: (0, 0, 0, 0);
     min-height: 600px;
     background-color: #dba0aa;
     background-image: url('../static/images/background_movies.jpeg');
@@ -28,20 +33,20 @@ body { min-height: 100vh; }
     background-size: 100%;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
 }
 
-.left_nav{
+.left_nav {
     position: relative;
 
     width: 70%;
     padding: 14px 16px;
     font-size: 17px;
 }
-
-.netchix_logo{
+/* ###### netchix logo ####### */
+.netchix_logo {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 100;
     color: var(--primary-color);
@@ -49,35 +54,50 @@ body { min-height: 100vh; }
     margin-left: 2%;
 }
 
-.right_nav{
+
+/* ###### Right Navigation Bar ####### */
+.right_nav {
     position: relative;
-    width: 30%;
+    width: 40%;
+    height: auto;
     display: flex;
     margin-left: 30%;
 }
 
-.header_select{
-    padding: 3%;
-}
 
-.sign_in_button{
-    padding: 3%;
-}
+#language {
+    margin-right: 2%;
+    height: 100%;
+    border-radius: 5px;
+    border-width: 0cap;
 
-#language{
     background-color: transparent;
     color: white;
-    border: grey;
-    width: auto;
 }
 
-#sign_in_button{
-    background-color: var(--primary-color);
+.sign_in {
+    margin-left: 5%;
+}
+
+#sign_in_button {
+    padding: 3%;
     width: 140%;
     height: 100%;
-    border-radius: 10%;
+    border-radius: 5px;
+
+    background-color: var(--primary-color);
     color: white;
-    font-weight: 500;
+    font-weight: 550;
     border-color: #dba0aa;
+    
     /* Need to add hover */
+}
+
+/* ###### Main title ###### */
+
+.main_title_container{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: white;
 }
