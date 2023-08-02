@@ -17,7 +17,7 @@ body {
 
 body {
     min-height: 100vh;
-    background-color: black;
+    /* background-color: black; */
 }
 
 
@@ -28,9 +28,7 @@ body {
     background-color: #dba0aa;
     background-image: url('../static/images/background_movies.jpeg');
     background-repeat: no-repeat;
-    /* filter: brightness(0.5);  */
-    /* WILL NEED BRIGHTNESS FILTER LATER */
-    background-size: 100%;
+    background-size: cover;
 }
 
 .nav_bar {
@@ -118,4 +116,26 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     margin-top: 5%;
+}
+
+/* #####Gradient Divider ######## */
+
+
+.divider{
+    display: flex;
+    height: 150px;
+    background: rgb(190,23,135);
+    background: radial-gradient(circle, rgba(190,23,135,1) 0%, rgba(28,55,185,1) 59%, rgba(0,0,0,1) 100%);
+}
+
+.divider_text_box{
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+
+
+.next_page{
+    height: 500px;
+    margin: auto;
 }
