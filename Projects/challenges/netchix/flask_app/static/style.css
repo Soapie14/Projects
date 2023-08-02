@@ -27,6 +27,9 @@ body {
     min-height: 600px;
     background-color: #dba0aa;
     background-image: url('../static/images/background_movies.jpeg');
+    /* -webkit-box-shadow: inset 0 0 100px 100px black; */
+    box-shadow: inset 0 0 100px 100px black;
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -124,8 +127,8 @@ body {
 .divider{
     display: flex;
     height: 150px;
-    background: rgb(190,23,135);
-    background: radial-gradient(circle, rgba(190,23,135,1) 0%, rgba(28,55,185,1) 59%, rgba(0,0,0,1) 100%);
+    background: rgb(147,17,104);
+    background: radial-gradient(circle, rgba(147,17,104,1) 3%, rgba(28,55,185,1) 54%, rgba(0,0,0,1) 91%);
 }
 
 .divider_text_box{
