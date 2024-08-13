@@ -1,6 +1,19 @@
+/* Import the Grey Qo font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+
+/* Import Tailwind CSS base styles */
+@import 'tailwindcss/base';
+
+/* Import Tailwind CSS component styles */
+@import 'tailwindcss/components';
+
+/* Import Tailwind CSS utility styles */
+@import 'tailwindcss/utilities';
+
+/* Global styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Grey Qo', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
