@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
 const Info = () => {
+    // Step 1: Declare a state variable 'name' with an initial empty string value.
+    // 'setName' is the function to update the state.
     const [name, setName] = useState("");
+
+    // Step 3: Handle input changes by updating the 'name' state with the input's value.
     const handleInputChange = (event) => {
         setName(event.target.value);
     };
@@ -13,11 +17,11 @@ const Info = () => {
                 type="text"
                 className="border p-2 mb-4 text-lg"
                 placeholder="Enter your name"
-                value={name}
-                onChange={handleInputChange}
+                value={name} // The input value is controlled by the 'name' state
+                onChange={handleInputChange} // Updates 'name' state when the input value changes
             />
 
-            {/* Step 4: Display the entered name */}
+            {/* Step 4: Conditionally render the greeting message if 'name' is not empty */}
             {name && (
                 <div className="text-2xl mt-4">
                     Hello, <span className="font-bold">{name}</span>!
@@ -26,6 +30,5 @@ const Info = () => {
         </div>
     );
 };
-
 
 export default Info;
