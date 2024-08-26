@@ -24,7 +24,7 @@ const Info = () => {
             {/* Step 4: Conditionally render the greeting message if 'name' is not empty */}
             {name && (
                 <div className="text-2xl mt-4">
-                    Hello, <span className="font-bold">{name}</span>!
+                    <span className="font-bold">{name}</span>'s To-Do List
                 </div>
             )}
         </div>
