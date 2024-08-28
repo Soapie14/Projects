@@ -1,18 +1,24 @@
 import React, { useState } from 'react';
 
 const Info = () => {
-    // Step 1: Declare a state variable 'name' with an initial empty string value.
+    // Declare a useState variable 'name' with an initial empty string value.
     // 'setName' is the function to update the state.
     const [name, setName] = useState("");
 
-    // Step 3: Handle input changes by updating the 'name' state with the input's value.
+    // Handle input changes by updating the 'name' state with the input's value.
     const handleInputChange = (event) => {
         setName(event.target.value);
     };
 
     return (
         <div className="flex flex-col items-center justify-center mt-10">
-            {/* Step 2: Create the input field */}
+            {/* "name"'s to-do list */}
+            {name && (
+                <div className="text-4xl mt-4">
+                    <span className="font-bold text-3xl mt-4">{name}</span>'s To-Do List
+                </div>
+            )}
+            {/* input field */}
             <input
                 type="text"
                 className="border p-2 mb-4 text-lg"
@@ -21,12 +27,6 @@ const Info = () => {
                 onChange={handleInputChange} // Updates 'name' state when the input value changes
             />
 
-            {/* Step 4: Conditionally render the greeting message if 'name' is not empty */}
-            {name && (
-                <div className="text-2xl mt-4">
-                    <span className="font-bold">{name}</span>'s To-Do List
-                </div>
-            )}
         </div>
     );
 };
