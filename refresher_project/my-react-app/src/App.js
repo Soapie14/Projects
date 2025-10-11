@@ -1,15 +1,25 @@
-import './App.css';
+import React, { useState } from 'react';
 import Welcome from './Welcome';
+import Questionnaire from './Form.js'; // make sure path is correct
+import './App.css'; // assuming your styles are here
 
 function App() {
+  // control whether the questionnaire is visible
+  const [showQuestionnaire, setShowQuestionnaire] = useState(true);
+
   return (
     <div className="App">
-      <h1>Hello, React!</h1>
-      <Welcome name="Sophie"/>
+      
 
-      <p>We can start a react app by cd my-react-app and using npm start. </p>
-      <p>We can stop it by using ctrl + c in the terminal
-      </p>
+      <main>
+        <Welcome />
+        {/* Maybe other components, routes, etc. */}
+      </main>
+
+      {/* Popup overlay only appears if showQuestionnaire = true */}
+      {showQuestionnaire && (
+        <Questionnaire onClose={() => setShowQuestionnaire(false)} />
+      )}
     </div>
   );
 }
